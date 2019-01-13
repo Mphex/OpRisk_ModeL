@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730) (preloaded format=pdflatex 2018.7.9)  13 JAN 2019 08:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730) (preloaded format=pdflatex 2018.7.9)  13 JAN 2019 08:55
 entering extended mode
 **./OpRisk_Sweave.tex
 (OpRisk_Sweave.tex
@@ -761,7 +761,7 @@ LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 ))))
-No file OpRisk_Sweave.aux.
+(OpRisk_Sweave.aux)
 \openout1 = `OpRisk_Sweave.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -778,6 +778,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 23.
+
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -901,83 +902,14 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 25.
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-Package natbib Warning: Citation `einemann2018operational' on page 1 undefined 
-on input line 37.
-
-
-Package natbib Warning: Citation `basel2011operational' on page 1 undefined on 
-input line 43.
-
 [1
 
-{C:/Users/User/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-
-Package natbib Warning: Citation `einemann2018operational' on page 2 undefined 
-on input line 55.
-
-
-Package natbib Warning: Citation `einemann2018operational' on page 2 undefined 
-on input line 55.
-
-[2]
-
-Package natbib Warning: Citation `einemann2018operational' on page 3 undefined 
-on input line 59.
-
-
-Package natbib Warning: Citation `chavez2016extreme' on page 3 undefined on inp
-ut line 69.
-
-
-Package natbib Warning: Citation `chavez2016extreme' on page 3 undefined on inp
-ut line 69.
-
-
-Package natbib Warning: Citation `embrechts2018modeling' on page 3 undefined on
- input line 71.
-
-[3]
-
-Package natbib Warning: Citation `frachot2001loss' on page 4 undefined on input
- line 83.
-
-
-Package natbib Warning: Citation `aue2006lda' on page 4 undefined on input line
- 83.
-
-
-Package natbib Warning: Citation `panjer2006operational' on page 4 undefined on
- input line 83.
-
-
-Package natbib Warning: Citation `einemann2018operational' on page 4 undefined 
-on input line 87.
-
-[4]
-
-Package natbib Warning: Citation `gisiger2010risk' on page 5 undefined on input
- line 91.
-
+{C:/Users/User/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+[3] [4]
 LaTeX Font Info:    Try loading font information for T1+aett on input line 93.
-("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
+ ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-)
-[5]
-
-Package natbib Warning: Citation `shefrin2016behavioral' on page 6 undefined on
- input line 106.
-
-
-Package natbib Warning: Citation `flake1998square' on page 6 undefined on input
- line 114.
-
-[6]
-
-Package natbib Warning: Citation `coates2012learning' on page 7 undefined on in
-put line 118.
-
-[7]
+) [5] [6] [7]
 
 LaTeX Warning: File `Rplot.eps' not found on input line 135.
 
@@ -1088,9 +1020,10 @@ l.159 ... \includegraphics[width=7cm]{Rplot03.eps}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+[8] [9]
 LaTeX Font Info:    Try loading font information for TS1+aett on input line 174
 .
-(C:/PROGRA~1/R/R-35~1.1/share/texmf/tex/latex\ts1aett.fd
+ (C:/PROGRA~1/R/R-35~1.1/share/texmf/tex/latex\ts1aett.fd
 File: ts1aett.fd 
 )
 LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 174
@@ -1102,13 +1035,13 @@ File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `TS1/aett/m/n' in size <10> not available
 (Font)              Font shape `TS1/cmtt/m/n' tried instead on input line 174.
 
-[8] [9] [10]
+[10] [11]
 Overfull \hbox (8.15125pt too wide) in paragraph at lines 322--322
 []\T1/aett/m/n/10 (Intercept)                  4.7254503502183  1.6261322314185
    2.906        0.003661 **[] 
  []
 
-[11]
+
 Overfull \hbox (2.91125pt too wide) in paragraph at lines 322--322
 []\T1/aett/m/n/10 DeskBonds/Repos             -1.0685956222587  0.6008568971048
   -1.778        0.075330 .[] 
@@ -1216,13 +1149,13 @@ Overfull \hbox (2.91125pt too wide) in paragraph at lines 322--322
   -2.400        0.016390 *[] 
  []
 
-
+[12]
 Overfull \hbox (2.91125pt too wide) in paragraph at lines 322--322
 []\T1/aett/m/n/10 InstrumentCreditDefaultSwap -2.0644030499884  0.8189266483920
   -2.521        0.011707 *[] 
  []
 
-[12]
+
 Overfull \hbox (2.91125pt too wide) in paragraph at lines 322--322
 []\T1/aett/m/n/10 InstrumentETF                2.8954022524109  1.1308810366054
    2.560        0.010458 *[] 
@@ -1264,7 +1197,7 @@ Overfull \hbox (13.39124pt too wide) in paragraph at lines 322--322
   -6.468 0.0000000000994 ***[] 
  []
 
-
+[13]
 Overfull \hbox (13.39124pt too wide) in paragraph at lines 322--322
 []\T1/aett/m/n/10 ReasonEarly Termination     -6.1483760049717  0.9342764279199
   -6.581 0.0000000000468 ***[] 
@@ -1294,7 +1227,7 @@ Overfull \hbox (13.39124pt too wide) in paragraph at lines 322--322
   -3.985 0.0000674523367 ***[] 
  []
 
-[13]
+
 Overfull \hbox (13.39124pt too wide) in paragraph at lines 322--322
 []\T1/aett/m/n/10 ReasonSystem Call Accounts  -7.1905089019106  1.1059143363718
   -6.502 0.0000000000793 ***[] 
@@ -1378,10 +1311,7 @@ Overfull \hbox (13.39124pt too wide) in paragraph at lines 322--322
   -4.306 0.0000166480539 ***[] 
  []
 
-[14]
-
-LaTeX Warning: Reference `Fig4' on page 15 undefined on input line 330.
-
+[14] [15]
 
 LaTeX Warning: File `Loss_vs_Exposure(1).eps' not found on input line 341.
 
@@ -1426,14 +1356,6 @@ l.343 ...\includegraphics[width=7cm]{CorrPlot.eps}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[15]
-
-Package natbib Warning: Citation `rousseeuw1987silhouettes' on page 16 undefine
-d on input line 354.
-
-
-LaTeX Warning: Reference `Fig5' on page 16 undefined on input line 354.
-
 [16]
 
 LaTeX Warning: File `IterateKmeans.eps' not found on input line 366.
@@ -1457,13 +1379,13 @@ l.366 ...udegraphics[scale=0.7]{IterateKmeans.eps}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[17]
+
 Overfull \hbox (55.31116pt too wide) in paragraph at lines 403--403
 []\T1/aett/m/n/10 crs$kmeans <- kmeans(sapply(na.omit(crs$dataset[crs$sample, c
 rs$numeric]), rescaler, "range"), 4)[] 
  []
 
-[18] [19]
+[17] [18] [19]
 
 LaTeX Warning: File `CA14MeansPlot.eps' not found on input line 440.
 
@@ -1491,25 +1413,13 @@ Overfull \hbox (11.00835pt too wide) in paragraph at lines 440--441
  [][] 
  []
 
-[20] [21]
-No file OpRisk_Sweave.bbl.
-
-Package natbib Warning: There were undefined citations.
-
-(OpRisk_Sweave.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[20] [21] (OpRisk_Sweave.bbl) [22] (OpRisk_Sweave.aux) ) 
 Here is how much of TeX's memory you used:
- 15357 strings out of 492973
- 294131 string characters out of 3127136
- 345352 words of memory out of 3000000
- 18815 multiletter control sequences out of 15000+200000
- 50373 words of font info for 102 fonts, out of 3000000 for 9000
+ 15397 strings out of 492973
+ 295297 string characters out of 3127136
+ 345810 words of memory out of 3000000
+ 18855 multiletter control sequences out of 15000+200000
+ 47893 words of font info for 98 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,11n,68p,971b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
 

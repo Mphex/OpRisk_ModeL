@@ -1,3 +1,68 @@
 \begin{thebibliography}{}
 
+\bibitem[Aue and Kalkbrener, 2006]{aue2006lda}
+Aue, F. and Kalkbrener, M. (2006).
+\newblock Lda at work: Deutsche bank’s approach to quantifying operational
+  risk.
+\newblock {\em Journal of Operational Risk}, 1(4):49--93.
+
+\bibitem[Chavez-Demoulin et~al., 2016]{chavez2016extreme}
+Chavez-Demoulin, V., Embrechts, P., and Hofert, M. (2016).
+\newblock An extreme value approach for modeling operational risk losses
+  depending on covariates.
+\newblock {\em Journal of Risk and Insurance}, 83(3):735--776.
+
+\bibitem[Coates and Ng, 2012]{coates2012learning}
+Coates, A. and Ng, A.~Y. (2012).
+\newblock Learning feature representations with k-means.
+\newblock In {\em Neural networks: Tricks of the trade}, pages 561--580.
+  Springer.
+
+\bibitem[Committee et~al., 2011]{basel2011operational}
+Committee, B. et~al. (2011).
+\newblock Operational risk--supervisory guidelines for the advanced measurement
+  approaches.
+\newblock {\em Basel: Bank for International Settlements}.
+
+\bibitem[Einemann et~al., 2018]{einemann2018operational}
+Einemann, M., Fritscher, J., and Kalkbrener, M. (2018).
+\newblock Operational risk measurement beyond the loss distribution approach:
+  an exposure-based methodology.
+
+\bibitem[Embrechts et~al., 2018]{embrechts2018modeling}
+Embrechts, P., Mizgier, K.~J., and Chen, X. (2018).
+\newblock Modeling operational risk depending on covariates. an empirical
+  investigation.
+
+\bibitem[Flake, 1998]{flake1998square}
+Flake, G.~W. (1998).
+\newblock Square unit augmented radially extended multilayer perceptrons.
+\newblock In {\em Neural Networks: Tricks of the Trade}, pages 145--163.
+  Springer.
+
+\bibitem[Frachot et~al., 2001]{frachot2001loss}
+Frachot, A., Georges, P., and Roncalli, T. (2001).
+\newblock Loss distribution approach for operational risk.
+
+\bibitem[Gisiger, 2010]{gisiger2010risk}
+Gisiger, N. (2010).
+\newblock Risk-neutral probabilities explained.
+
+\bibitem[Panjer, 2006]{panjer2006operational}
+Panjer, H.~H. (2006).
+\newblock {\em Operational risk: modeling analytics}, volume 620.
+\newblock John Wiley \& Sons.
+
+\bibitem[Rousseeuw, 1987]{rousseeuw1987silhouettes}
+Rousseeuw, P.~J. (1987).
+\newblock Silhouettes: a graphical aid to the interpretation and validation of
+  cluster analysis.
+\newblock {\em Journal of computational and applied mathematics}, 20:53--65.
+
+\bibitem[Shefrin, 2016]{shefrin2016behavioral}
+Shefrin, H. (2016).
+\newblock {\em Behavioral Risk Management: Managing the Psychology that Drives
+  Decisions and Influences Operational Risk}.
+\newblock Springer.
+
 \end{thebibliography}
