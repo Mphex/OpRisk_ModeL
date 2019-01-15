@@ -1,7 +1,7 @@
 ---
 documentclass: DissertateUSU
 title: 'Dissertating for USU'
-author: You
+author: Mphekeleli Hoohlo
 output:
   pdf_document:
     latex_engine: xelatex
@@ -11,14 +11,14 @@ output:
 geometry: [top=1in, bottom=1in, right=1in, left=1.5in]
 params:
   year: '2018'
-  degree: 'Degree'
-  field: 'Field'
+  degree: 'Doctor of Philosophy'
+  field: 'Risk Theory'
   chair: 'Chair Person'
   committee1: 'Committee Member 1'
   committee2: 'Committee Member 2'
   committee3: 'Committee Member 3'
   committee4: 'Committee Member 4'
-  gradschool: 'The Graduate School Individual'
+  gradschool: 'Wits Graduate School of Business Administration'
     
 ---
 

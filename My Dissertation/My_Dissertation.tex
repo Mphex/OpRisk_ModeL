@@ -1,0 +1,217 @@
+\documentclass[]{DissertateUSU}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[top=1in,bottom=1in,right=1in,left=1.5in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Dissertating for USU},
+            pdfauthor={Mphekeleli Hoohlo},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Dissertating for USU}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{Mphekeleli Hoohlo}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+    \date{}
+    \predate{}\postdate{}
+  
+\newcommand{\yeardegree}{ 2018 } \newcommand{\degree}{ Doctor of Philosophy }
+ \newcommand{\field}{ Risk Theory }
+ \newcommand{\chairperson}{ Chair Person }
+ \newcommand{\committeeone}{ Committee Member 1 }
+ \newcommand{\committeetwo}{ Committee Member 2 }
+ \newcommand{\committeethree}{ Committee Member 3 }
+ \newcommand{\committeefour}{ Committee Member 4 }
+ \newcommand{\gradschoolguy}{ Wits Graduate School of Business Administration }
+ % Tables
+      \usepackage{booktabs}
+      \usepackage{threeparttable}
+      \usepackage{array}
+      \newcolumntype{x}[1]{%
+      >{\centering\arraybackslash}m{#1}}%
+      \usepackage{placeins}
+      \usepackage{chngcntr}
+      \counterwithin{figure}{chapter}
+      \counterwithin{table}{chapter}
+      \usepackage[makeroom]{cancel}
+
+\begin{document}
+\maketitle
+
+\pagenumbering{roman} \pagestyle{empty} \copyrightpage
+
+\newpage
+
+\pagestyle{fancy} \fancyhead[L]{Abstract} \fancyhead[R]{\thepage}
+\fancyfoot[C]{} \chapter*{ABSTRACT}
+\addcontentsline{toc}{section}{Abstract}
+
+Abstract words.
+
+\newpage
+
+\fancyhead[L]{Public Abstract} \fancyhead[R]{\thepage} \fancyfoot[C]{}
+\chapter*{PUBLIC ABSTRACT}
+\addcontentsline{toc}{section}{Public Abstract}
+
+Publically abstracted words.
+
+\newpage
+
+\fancyhead[L]{Dedication} \fancyhead[R]{\thepage} \fancyfoot[C]{}
+\chapter*{DEDICATION} \addcontentsline{toc}{section}{Dedication}
+
+Dedicate it.
+
+\newpage
+
+\fancyhead[L]{Acknowledgments} \fancyhead[R]{\thepage} \fancyfoot[C]{}
+\chapter*{ACKNOWLEDGEMENTS}
+\addcontentsline{toc}{section}{Acknowledgments}
+
+Acknowledge them.
+
+\newpage
+
+\fancyhead[L]{Table of Contents} \fancyhead[R]{\thepage} \fancyfoot[C]{}
+\tableofcontents
+
+\newpage
+
+\fancyhead[L]{List of Tables} \fancyhead[R]{\thepage} \fancyfoot[C]{}
+\listoftables
+
+\newpage
+
+\fancyhead[L]{List of Figures} \fancyhead[R]{\thepage} \fancyfoot[C]{}
+\listoffigures
+
+\newpage
+
+\pagenumbering{arabic}
+
+\newpage
+
+\fancyhead[L]{Introduction} \fancyhead[R]{\thepage} \fancyfoot[C]{}
+
+\chapter{INTRODUCTION}
+
+Introduce the thing.
+
+\FloatBarrier
+
+\newpage
+
+\fancyhead[L]{Chapter 2's Title} \fancyhead[R]{\thepage} \fancyfoot[C]{}
+
+\chapter{Chapter 2's Title}
+
+Tells us more.
+
+\FloatBarrier
+
+\newpage
+
+\fancyhead[L]{Chapter 3's Title} \fancyhead[R]{\thepage} \fancyfoot[C]{}
+
+\chapter{Chapter 3's Title}
+
+Don't stop now.
+
+\FloatBarrier
+\newpage
+\fancyhead[L]{Chapter 4's Title} \fancyhead[R]{\thepage} \fancyfoot[C]{}
+
+\chapter{Chapter 4's Title}
+
+Keep it going.
+
+\FloatBarrier
+\newpage
+\fancyhead[L]{Chapter 5's Title} \fancyhead[R]{\thepage} \fancyfoot[C]{}
+
+\chapter{Chapter 5's Title}
+
+Well done.
+
+\FloatBarrier
+
+\newpage
+
+\fancyhead[L]{References} \fancyhead[R]{\thepage} \fancyfoot[C]{}
+
+\chapter*{REFERENCES}
+
+\setlength{\parindent}{-0.5in} \setlength{\leftskip}{0.4in}
+\setlength{\parskip}{6pt} \noindent
+
+
+\end{document}
